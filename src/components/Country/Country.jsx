@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Country.css'
 
-const Country = ({ country }) => {
+const Country = ({ country, handleVisited }) => {
     const [visit, setVisit] = useState(false)
     
     const handleVisit = () => {
@@ -9,6 +9,7 @@ const Country = ({ country }) => {
         //     return setVisit(true);
         // }
         setVisit(!visit)
+        handleVisited(country)
     }
     return (
         <div className={`country ${visit && 'visitColor'}`}>
