@@ -1,0 +1,17 @@
+.country{
+    background-color: skyblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;     
+}
+
+.visitColor{
+    background-color: rgb(190, 230, 246);
+}
+
+
+.btn-visit{
+    background-color: rgb(238, 235, 160);
+    
+}
+
